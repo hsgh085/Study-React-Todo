@@ -8,6 +8,7 @@ function App() {
   const[filter,setFilter]=useState(filters[0]);
   return (
     <>
+    {/* NOTE: dark mode 미완 */}
       <Header filters={filters} filter={filter}
         onFilterChange={setFilter}/>
       <TodoList filter={filter}/>
